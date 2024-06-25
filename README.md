@@ -1,11 +1,11 @@
-# ![aws](https://github.com/julien-muke/Search-Engine-Website-using-AWS/assets/110755734/01cd6124-8014-4baa-a5fe-bd227844d263)     How to Create an Auto Scaling Group of EC2 Instances.
+# ![aws](https://github.com/julien-muke/Search-Engine-Website-using-AWS/assets/110755734/01cd6124-8014-4baa-a5fe-bd227844d263)     Deploy Node JS Docker Container to AWS ECS Cluster (Fargate).
 
 
 ## <a name="introduction">🤖 Introduction</a>
 
-This tutorial provides a hands-on introduction to Amazon EC2 Auto Scaling through the AWS Management Console. You'll create a launch template that defines your EC2 instances and an Auto Scaling group with a single instance in it. After launching your Auto Scaling group, you'll terminate the instance and verify that the instance was removed from service and replaced. To maintain a constant number of instances, Amazon EC2 Auto Scaling detects and responds to Amazon EC2 health and reachability checks automatically.
+In this hands-on we're diving deep into the world of AWS as we guide you through the process of pushing your Node.js Docker container to AWS Elastic Container Registry and deploying it to AWS Elastic Container Service. 
 
-## <a name="design">📐 Diagram Architecture</a>
+## <a name="design">📐 Architecture Diagram</a>
 
 ![AWS EC2 Auto Scaling](https://github.com/julien-muke/aws-ec2-auto-scaling-group/assets/110755734/274005ff-7950-4846-8feb-3f64f0e927d1)
 
@@ -15,19 +15,14 @@ This tutorial provides a hands-on introduction to Amazon EC2 Auto Scaling throug
 
 The procedure for deploying this architecture on AWS consists of the following steps:
 
-Step 1. Setting up VPC (Virtual Private Cloud)
-
-Step 2. Configuring Internet Gateway
-
-Step 3. Configuring Subnet
-
-Step 4. Creating a Target Group
-
-Step 5. Setting up an Application Load Balancer
-
-Step 6. Create an Auto Scaling group using a launch template
-
-Step 7. Testing our setup
+Step 1. Create WebApp Docker Image
+Step 2. Create aws-cli user
+Step 3. Create & push image to AWS ECR repository
+Step 4. Create Security Groups
+Step 5. Create AWS ECS Fargate Cluster
+Step 6. Create Task Definition
+Step 7. Create ECS Service with Application Load Balancer
+Step 8 Update Application Load Balancer Security Group
 
 
-## ➡️ Step 1 - Setting up VPC (Virtual Private Cloud)
+## ➡️ Step 1 - Create WebApp Docker Image
