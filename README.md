@@ -34,6 +34,17 @@ Step 8 Update Application Load Balancer Security Group
 
 ## 📝 Prerequisites
 
+Before you begin, ensure the following prerequisites are met:
+
+
+
+* Ensure you have completed the Amazon ECR setup steps. For more information, see [Setting up for Amazon ECR](https://docs.aws.amazon.com/AmazonECR/latest/userguide/get-set-up-for-amazon-ecr.html) in the Amazon Elastic Container Registry User Guide.
+
+* Your user has the required IAM permissions to access and use the Amazon ECR service. For more information, see [Amazon ECR managed policies](https://docs.aws.amazon.com/AmazonECR/latest/userguide/security-iam-awsmanpol.html).
+
+* You have Docker installed. For Docker installation steps for Amazon Linux 2, see [Installing Docker on AL2023](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/create-container-image.html#create-container-image-install-docker). For all other operating systems, see the Docker documentation at [Docker Desktop overview](https://docs.docker.com/desktop/).
+
+* You have the AWS CLI installed and configured. For more information, see [Installing the AWS Command Line Interface](https://docs.aws.amazon.com/cli/latest/userguide/installing.html) in the AWS Command Line Interface User Guide.
 
 
 
