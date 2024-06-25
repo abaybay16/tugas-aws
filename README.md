@@ -23,12 +23,19 @@ Imagine you are developing a basic web application, and you want to deploy it us
 The procedure for deploying this architecture on AWS consists of the following steps:
 
 Step 1. Create WebApp Docker Image
+
 Step 2. Create aws-cli user
+
 Step 3. Create & push image to AWS ECR repository
+
 Step 4. Create Security Groups
+
 Step 5. Create AWS ECS Fargate Cluster
+
 Step 6. Create Task Definition
+
 Step 7. Create ECS Service with Application Load Balancer
+
 Step 8 Update Application Load Balancer Security Group
 
 
