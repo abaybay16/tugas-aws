@@ -32,6 +32,11 @@ Step 7. Create ECS Service with Application Load Balancer
 Step 8 Update Application Load Balancer Security Group
 
 
+## 📝 Prerequisites
+
+
+
+
 ## ➡️ Step 1 - Create WebApp Docker Image
 
 Amazon ECS uses Docker images in task definitions to launch containers. Docker is a technology that provides the tools for you to build, run, test, and deploy distributed applications in containers. 
@@ -62,3 +67,20 @@ EXPOSE 3000
 CMD [ "node", "app.js" ]
 ```
 
+
+
+
+
+
+
+
+
+
+## 💰 Cost
+
+All services used are eligible for the AWS Free Tier. However, charges will incur at some point so it's recommended that you shut down resources after completing this tutorial.
+
+
+## Conclusion
+
+In this blog post, we have provided a step-by-step guide on how to develop and deploy a basic web application on Amazon ECS using Fargate. By following these steps, you can learn the basics of ECS and Fargate and get started with deploying containerized applications on AWS. This approach offers scalability, reliability, and cost-effectiveness for managing containerized workloads in the cloud.
