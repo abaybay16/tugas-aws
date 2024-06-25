@@ -7,8 +7,7 @@ In this hands-on we're diving deep into the world of AWS as we guide you through
 
 ## <a name="design">📐 Architecture Diagram</a>
 
-![AWS EC2 Auto Scaling](https://github.com/julien-muke/aws-ec2-auto-scaling-group/assets/110755734/274005ff-7950-4846-8feb-3f64f0e927d1)
-
+![Docker Image-2](https://github.com/julien-muke/nodejs-docker-aws-ecs/assets/110755734/121e371a-3b6f-4a7c-a20d-34a05b2af90a)
 
 
 ## <a name="steps">☑️ Steps</a>
